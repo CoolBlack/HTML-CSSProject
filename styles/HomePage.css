@@ -15,6 +15,8 @@ nav {
 }
 
 a {
+	position: relative;
+	display: inline-block;
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
@@ -26,7 +28,7 @@ a:hover {
 }
 
 #homeButton {
-	display: inline;
+	display: inline-block;
 	content: url(../images/logo.png);
 	width: 50px;
 }
