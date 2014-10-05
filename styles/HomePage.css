@@ -1,3 +1,12 @@
+body, header, nav, section, article, footer, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
 header {
 	background-color: skyblue;
 	<!-- content: url(); -->
@@ -31,4 +40,30 @@ a:hover {
 	display: inline-block;
 	content: url(../images/logo.png);
 	width: 50px;
+}
+
+footer ul {
+    height: 200px;
+}
+
+footer ul li {
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+
+footer ul li a {
+    display: block;
+    padding: 0;
+    cursor: pointer;
+}
+
+footer p {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: #6e6e6e ;
+    font-size: 0.8em;
+}
+
+section {
+    height: 500px; /*временно*/
 }
