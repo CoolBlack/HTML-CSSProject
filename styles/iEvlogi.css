@@ -1,3 +1,12 @@
+body, header, nav, section, article, footer, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
 header {
 	background-color: skyblue;
 	<!-- content: url(); -->
@@ -15,18 +24,24 @@ nav {
 }
 
 a {
+	position: relative;
+	display: inline-block;
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	padding: 0 50px;
+	margin-right: 50px;
 }
 
 a:hover {
-	color: gray;
+	color: #d8d8d8;
 }
 
 #homeButton {
-	display: inline;
+	display: inline-block;
 	content: url(../images/logo.png);
 	width: 50px;
+}
+
+#homeButton:hover {
+	content: url(../images/logo_hover.png);
 }
