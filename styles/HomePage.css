@@ -7,39 +7,35 @@ ul {
     list-style-type: none;
 }
 
-header {
-	background-color: skyblue;
-	<!-- content: url(); -->
-	width: 100%;
-	height: 5%;
-}
-
 nav {
-	background-color: skyblue;
+    position: fixed;
+	background-color: #234465;
 	width: 100%;
-	padding: 10px 0;
 	text-align: center;
-	font-family: Helvetica, sans-serif;
-	font-size: 15pt;
+    font: normal 1em Lucida Grande,sans-serif,monospaced;
 }
 
 a {
-	position: relative;
 	display: inline-block;
+    vertical-align: middle;
+    padding: .4em .5em;
+    margin: auto 2em;
 	text-decoration: none;
 	color: white;
-	font-weight: bold;
-	margin-right: 50px;
 }
 
 a:hover {
-	color: #d8d8d8;
+	color: #c1c1c1;
+}
+
+a.active{
+    color: #c1c1c1;
 }
 
 #homeButton {
-	display: inline-block;
 	content: url(../images/logo.png);
-	width: 50px;
+	width: 5%;
+    margin: 0 1em;
 }
 
 #homeButton:hover {
