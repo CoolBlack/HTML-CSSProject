@@ -29,17 +29,21 @@ a {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	padding: 0 50px;
+	margin-right: 50px;
 }
 
 a:hover {
-	color: gray;
+	color: #d8d8d8;
 }
 
 #homeButton {
 	display: inline-block;
 	content: url(../images/logo.png);
 	width: 50px;
+}
+
+#homeButton:hover {
+	content: url(../images/logo_hover.png);
 }
 
 footer ul {
