@@ -48,10 +48,17 @@ nav > a.active {
     content: url(../images/logo_hover.png);
 }
 
+<<<<<<< HEAD
 .mainContent {
     content:url(../images/iphone.jpg);
     margin: .3rem auto .3rem auto;
     padding: 1rem;
+=======
+footer ul {
+    height: 200px;
+    margin-left: -2em;
+    overflow: hidden;
+>>>>>>> origin/master
 }
 
 .boxLinks {
