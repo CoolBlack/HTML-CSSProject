@@ -1,4 +1,4 @@
-body, header, nav, section, article, footer, ul, li {
+body, header, nav, section, article, footer, ul, li, p, a {
     margin: 0;
     padding: 0;
 }
@@ -7,64 +7,96 @@ ul {
     list-style-type: none;
 }
 
-nav {
+body {
+    padding-top: 3.5%;
+}
+
+header {
     position: fixed;
-	background-color: #234465;
-	width: 100%;
-	text-align: center;
-    font: normal 1em Lucida Grande,sans-serif,monospaced;
+    top: 0;
+    background-color: #234465;
+    width: 100%;
+    text-align: center;
+    font: normal 1rem Lucida Grande, sans-serif, monospaced;
+    z-index: 1;
 }
 
-a {
-	display: inline-block;
+nav > a {
+    display: inline-block;
     vertical-align: middle;
-    padding: .4em .5em;
-    margin: auto 2em;
-	text-decoration: none;
-	color: white;
+    padding: .4rem .5rem;
+    margin: auto 2rem;
+    text-decoration: none;
+    color: white;
 }
 
-a:hover {
-	color: #c1c1c1;
+nav > a:hover {
+    color: #c1c1c1;
 }
 
-a.active{
+nav > a.active {
     color: #c1c1c1;
 }
 
 #homeButton {
-	content: url(../images/logo.png);
-	width: 5%;
-    margin: 0 1em;
+    content: url(../images/logo.png);
+    width: 5%;
+    margin: 0 1rem;
 }
 
 #homeButton:hover {
-	content: url(../images/logo_hover.png);
+    content: url(../images/logo_hover.png);
 }
 
-footer ul {
-    height: 200px;
+.mainContent {
+    content:url(../images/iphone.jpg);
+    margin: .3rem auto .3rem auto;
+    padding: 1rem;
+}
+
+.boxLinks {
+    width: 100%;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.boxLinks ul li {
+    width:24.52%;
+    display: inline-block;
+    margin: 0 .03rem;
+}
+
+.boxLinks ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 15rem;
+    text-decoration: none;
+    cursor: pointer;
     overflow: hidden;
 }
 
-footer ul li {
-    float: left;
-    width: 25%;
-    height: 200px;
+.boxLinks ul li:first-child{
+    background: #234465;
+    /*background:no-repeat url(../images/footer-pic1.png) 100%;*/
+}
+.boxLinks ul li:nth-of-type(2){
+    background: #234465;
+    /*background:no-repeat url(../images/footer-pic2.png) 100%;*/
+}
+.boxLinks ul li:nth-of-type(3){
+    background: #234465;
+    /*background:no-repeat url(../images/footer-pic3.png) 100%;*/
+}
+.boxLinks ul li:last-of-type{
+    background: #234465;
+    /*background:no-repeat url(../images/footer-pic4.png) 100%;*/
 }
 
-footer ul li a {
-    display: block;
-    padding: 0;
-    cursor: pointer;
-}
-
-footer p {
+body > footer p {
     font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    color: #6e6e6e ;
-    font-size: 0.8em;
+    color: #6e6e6e;
+    padding: .3rem .7rem;
+    font-size: .8rem;
 }
 
-section {
-    height: 500px; /*временно*/
-}
+
