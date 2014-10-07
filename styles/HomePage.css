@@ -21,7 +21,7 @@ header {
     z-index: 1;
 }
 
-nav > a {
+.topNav > a {
     display: inline-block;
     vertical-align: middle;
     padding: .4rem .5rem;
@@ -30,11 +30,11 @@ nav > a {
     color: white;
 }
 
-nav > a:hover {
+.topNav > a:hover {
     color: #c1c1c1;
 }
 
-nav > a.active {
+.topNav > a.active {
     color: #c1c1c1;
 }
 
@@ -55,39 +55,34 @@ nav > a.active {
 }
 
 .boxLinks {
-    width: 100%;
-    margin: 0 0 0 0;
-    text-align: center;
-}
-
-.boxLinks ul li {
-    width:24.52%;
     display: inline-block;
+    text-align: center;
+    width:100%;
     margin: 0 .03rem;
 }
 
-.boxLinks ul li a {
+.boxLinks a {
     display: inline-block;
-    width: 100%;
+    width: 24.7%;
     height: 15rem;
     text-decoration: none;
     cursor: pointer;
     overflow: hidden;
 }
 
-.boxLinks ul li:first-child{
+.boxLinks > a:first-of-type{
     background: #234465;
     /*background:no-repeat url(../images/footer-pic1.png) 100%;*/
 }
-.boxLinks ul li:nth-of-type(2){
+.boxLinks > a:nth-of-type(2){
     background: #234465;
     /*background:no-repeat url(../images/footer-pic2.png) 100%;*/
 }
-.boxLinks ul li:nth-of-type(3){
+.boxLinks > a:nth-of-type(3){
     background: #234465;
     /*background:no-repeat url(../images/footer-pic3.png) 100%;*/
 }
-.boxLinks ul li:last-of-type{
+.boxLinks > a:last-of-type{
     background: #234465;
     /*background:no-repeat url(../images/footer-pic4.png) 100%;*/
 }
