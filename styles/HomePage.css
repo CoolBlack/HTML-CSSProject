@@ -1,14 +1,21 @@
-body, header, nav, section, article, footer, ul, li, p, a {
+body, header, nav, section, article, footer, ul, li, p, a, h1 {
     margin: 0;
     padding: 0;
 }
 
-ul {
-    list-style-type: none;
+#page-wrap {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3.5%;
 }
 
 body {
-    padding-top: 3.5%;
+    font: 22px Quick, arial, sans-serif;;
+}
+
+@font-face {
+    font-family: Quick;
+    src: url(../fonts/Quicksand-Regular.otf);
 }
 
 header {
@@ -17,81 +24,97 @@ header {
     background-color: #234465;
     width: 100%;
     text-align: center;
-    font: normal 1rem Lucida Grande, sans-serif, monospaced;
-    z-index: 1;
 }
 
 .topNav > a {
     display: inline-block;
     vertical-align: middle;
-    padding: .4rem .5rem;
-    margin: auto 2rem;
+    padding: .5% .5%;
+    margin: .5% 3%;
     text-decoration: none;
+    text-shadow: none;
     color: white;
+    transition: all .75s;
 }
 
 .topNav > a:hover {
-    color: #c1c1c1;
+    color: rgba(92, 223, 255, .75);
 }
 
 .topNav > a.active {
-    color: #c1c1c1;
+    color: #5cdfff;
+    text-shadow: 0 0 5px #fff;
+}
+
+.topNav > a:after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 30px;
+    margin: 0 0 0 3.5%;
+    background: -webkit-linear-gradient(top,#234465 0%, #5cdfff 50%, #234465 100%);
+    background: -moz-linear-gradient(to bottom, #234465 0%, #5cdfff 50%, #234465 100%);}
+
+.topNav > a:last-of-type:after, a:first-of-type:after {
+    background: none;
 }
 
 #homeButton {
-    content: url(../images/logo.png);
-    width: 5%;
-    margin: 0 1rem;
+     position: absolute;
+     background: #fff;
+     left: 25px;
+     top: 20px;
+     width: 15rem;
+     height: 7.5rem;
+     padding: 0;margin:0;
+     transition: all .75s;
+     border-radius: 10px;
+ }
+
+#homeButton > div{
+    background: #234465 url(../images/logo.png) no-repeat center top;
+    background-size: 80% 80%;
+    background-position: 50% 50%;
+    width: 14rem;
+    height: 7rem;
+    margin: .4rem auto;
+    padding: 0;
+    border-radius: 10px;
 }
 
-#homeButton:hover {
-    content: url(../images/logo_hover.png);
+#homeButton > div:hover {
+    background:#234465 url(../images/logo_hover.png) no-repeat center top;
+    background-size: 80% 80%;
+    background-position: 50% 50%;
 }
 
-.mainContent {
-    content: url(../images/iphone.jpg);
-    margin: .3rem auto .3rem auto;
-    padding: 1rem;
+section.mainContent {
+    width: 60%;
+    margin: 1% 10% 0 27.5%;
 }
 
-.boxLinks {
+section.mainContent div.text {
     display: inline-block;
     text-align: center;
-    width:100%;
-    margin: 0 .03rem;
+    font-size: .9em;
+    float: left;
+    max-width: 60%;
+    margin: 10% 3% 0 0;
 }
 
-.boxLinks a {
-    display: inline-block;
-    width: 24.7%;
-    height: 15rem;
-    text-decoration: none;
-    cursor: pointer;
-    overflow: hidden;
+section.mainContent div.pic > img {
+    content: url(../images/iphone.png);
+    max-width: 32%;
+    margin: 2rem auto;
 }
 
-.boxLinks > a:first-of-type{
-    background: #234465;
-    /*background:no-repeat url(../images/footer-pic1.png) 100%;*/
-}
-.boxLinks > a:nth-of-type(2){
-    background: #234465;
-    /*background:no-repeat url(../images/footer-pic2.png) 100%;*/
-}
-.boxLinks > a:nth-of-type(3){
-    background: #234465;
-    /*background:no-repeat url(../images/footer-pic3.png) 100%;*/
-}
-.boxLinks > a:last-of-type{
-    background: #234465;
-    /*background:no-repeat url(../images/footer-pic4.png) 100%;*/
-}
-
-body > footer p {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+p.copyright {
+    position: absolute;
+    bottom: 0;
+    float: left;
     color: #6e6e6e;
-    padding: .3rem .7rem;
+    padding: .2rem 0 .2rem .7rem;
     font-size: .8rem;
 }
-
 
