@@ -32,6 +32,10 @@ header {
     text-align: center;
 }
 
+.topNav{
+    text-align: center;
+}
+
 #homebutton{
     float: left;
     width: 10%;
@@ -48,7 +52,6 @@ header {
 }
 
 .topNav > a {
-    float: left;
     display: inline-block;
     padding: .7% .7%;
     margin: .7% 2.5%;
