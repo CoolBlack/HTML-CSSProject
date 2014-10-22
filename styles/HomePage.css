@@ -18,27 +18,46 @@ body {
     src: url(../fonts/Raleway-Regular.otf);
 }
 
+@font-face {
+    font-family: Rale-Bold;
+    src: url(../fonts/Raleway-SemiBold.otf);
+}
+
 header {
     position: fixed;
     top: 0;
     background-color: #222;
     width: 100%;
+    height: 60px;
     text-align: center;
 }
 
-.topNav > a {
-    display: inline-block;
-    vertical-align: middle;
+#homebutton{
+    float: left;
+    width: 10%;
+    height: 20px;
+    margin: 1% 2%;
     padding: .5% .5%;
-    margin: .5% 3%;
+    color: #ffffff;
     text-decoration: none;
-    text-shadow: none;
-    color: white;
+    text-align: right;
+    background: url("../images/logo_new.png") no-repeat left;
+    background-size: 20%;
     transition: all .75s;
 }
 
-.topNav > a:hover {
-    color: rgba(92, 223, 255, .75);
+.topNav > a {
+    float: left;
+    display: inline-block;
+    padding: .5% .5%;
+    margin: .7% 3%;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all .75s;
+}
+
+.topNav > a:hover,#homebutton:hover {
+    color: #888;
 }
 
 .topNav > a.active {
