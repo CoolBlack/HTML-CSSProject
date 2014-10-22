@@ -11,6 +11,7 @@ body, header, nav, section, article, footer, ul, li, p, a, h1 {
 
 body {
     font: 16px Rale, Arial, sans-serif;
+    overflow: hidden;
 }
 
 @font-face {
@@ -37,7 +38,7 @@ header {
     text-align: center;
 }
 
-.topNav{
+.topNav {
     display: inline-block;
     width: 60%;
     height: 100%;
@@ -45,7 +46,7 @@ header {
     text-align: center;
 }
 
-#homebutton{
+#homebutton {
     float: left;
     width: 10%;
     height: 20px;
@@ -69,7 +70,7 @@ header {
     transition: all .75s;
 }
 
-.topNav > a:hover,#homebutton:hover {
+.topNav > a:hover, #homebutton:hover {
     color: #888;
 }
 
@@ -77,7 +78,7 @@ header {
     color: #888888;
 }
 
-.social{
+.social {
     float: right;
     display: inline-block;
     width: 18%;
@@ -85,28 +86,28 @@ header {
     padding: .8%;
 }
 
-.social > a{
+.social > a {
     display: inline-block;
     width: 40px;
     height: 40px;
 }
 
-.social .facebook{
+.social .facebook {
     background: url("../images/button_facebook.png");
     background-size: 100%;
 }
 
-.social .twitter{
+.social .twitter {
     background: url("../images/button_twitter.png");
     background-size: 100%;
 }
 
-.social .google{
+.social .google {
     background: url("../images/button_goggle_plus.png");
     background-size: 100%;
 }
 
-.social .pinterest{
+.social .pinterest {
     background: url("../images/button_pinterest.png");
     background-size: 100%;
 }
@@ -124,13 +125,14 @@ header {
 .firstImg, .secondImg, .thirdImg, .fourthImg, .fifthImg, div {
     display: inline-block;
 }
+
 .firstImg, .secondImg, .thirdImg, .fourthImg, .fifthImg {
     margin: 0 5%;
 }
 
 .firstRow, .secondRow {
     height: 300px;
-    text-align: center;    
+    text-align: center;
     display: block;
 }
 
@@ -146,9 +148,10 @@ h1 {
 .top {
     width: 100%;
     text-align: center;
-    margin-top: 5%;s
+    margin-top: 5%;
 }
-.about{
+
+.about {
     font-family: Bam;
     font-size: 2em;
 }
