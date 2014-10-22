@@ -1,0 +1,110 @@
+body, header, nav, section, article, footer, ul, li, p, a, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#page-wrap {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3.5%;
+}
+
+body {
+    font: 18px Rale, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: Rale;
+    src: url(../fonts/Raleway-Regular.otf);
+}
+
+@font-face {
+    font-family: Rale-Bold;
+    src: url(../fonts/Raleway-SemiBold.otf);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: #222;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+span {
+    font-family: Rale-Bold;
+
+}
+
+div.text p {
+    height: 30px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.topNav{
+    text-align: center;
+}
+
+#homebutton{
+    float: left;
+    width: 10%;
+    height: 20px;
+    margin: 1% 2%;
+    padding: .5% .5%;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: right;
+    background: url("../images/logo_new.png") no-repeat;
+    background-size: 20%;
+    background-position: 10% 50%;
+    transition: all .75s;
+}
+
+.topNav > a {
+    display: inline-block;
+    padding: .7% .7%;
+    margin: .7% 2.5%;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all .75s;
+}
+
+.topNav > a:hover,#homebutton:hover {
+    color: #888;
+}
+
+.topNav > a.active {
+    color: #888888;
+}
+
+section.mainContent {
+    width: 80%;
+    margin: 1% 10% 0 27.5%;
+}
+
+section.mainContent div.text {
+    display: inline-block;
+    text-align: center;
+    font-size: .9em;
+    float: left;
+    max-width: 80%;
+    margin: 10% 3% 0 0;
+}
+
+section.mainContent div.pic > img {
+    content: url(../images/iphone.png);
+    max-width: 32%;
+    margin: 2rem auto;
+}
+
+p.copyright {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    color: #6e6e6e;
+    padding: .2rem 0 .2rem .7rem;
+    font-size: .8rem;
+}
+
