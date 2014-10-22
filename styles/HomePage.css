@@ -10,7 +10,7 @@ body, header, nav, section, article, footer, ul, li, p, a, h1 {
 }
 
 body {
-    font: 22px Rale, Arial, sans-serif;
+    font: 18px Rale, Arial, sans-serif;
 }
 
 @font-face {
@@ -41,16 +41,17 @@ header {
     color: #ffffff;
     text-decoration: none;
     text-align: right;
-    background: url("../images/logo_new.png") no-repeat left;
+    background: url("../images/logo_new.png") no-repeat;
     background-size: 20%;
+    background-position: 10% 50%;
     transition: all .75s;
 }
 
 .topNav > a {
     float: left;
     display: inline-block;
-    padding: .5% .5%;
-    margin: .7% 3%;
+    padding: .7% .7%;
+    margin: .7% 2.5%;
     text-decoration: none;
     color: #ffffff;
     transition: all .75s;
@@ -61,8 +62,7 @@ header {
 }
 
 .topNav > a.active {
-    color: #5cdfff;
-    text-shadow: 0 0 5px #fff;
+    color: #888888;
 }
 
 section.mainContent {
