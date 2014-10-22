@@ -23,6 +23,11 @@ body {
     src: url(../fonts/Raleway-SemiBold.otf);
 }
 
+@font-face {
+    font-family: Bam;
+    src: url(../fonts/bambam-normal.ttf);
+}
+
 header {
     position: fixed;
     top: 0;
@@ -78,6 +83,9 @@ header {
 .firstImg, .secondImg, .thirdImg, .fourthImg, .fifthImg, div {
     display: inline-block;
 }
+.firstImg, .secondImg, .thirdImg, .fourthImg, .fifthImg {
+    margin: 0 5%;
+}
 
 .firstRow, .secondRow {
     height: 300px;
@@ -86,8 +94,14 @@ header {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 4em;
+    font-family: Bam;
 }
 
 .firstRow {
+    margin-top: 10%;
+}
+
+.top {
+    margin-top: 5%;
 }
