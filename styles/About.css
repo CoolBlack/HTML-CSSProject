@@ -10,7 +10,7 @@ body, header, nav, section, article, footer, ul, li, p, a, h1 {
 }
 
 body {
-    font: 22px Rale, Arial, sans-serif;
+    font: 16px Rale, Arial, sans-serif;
 }
 
 @font-face {
