@@ -3,6 +3,31 @@ body, header, nav, section, article, footer, ul, li, p, a, h1 {
     padding: 0;
 }
 
+html{
+    overflow-y: scroll;
+}
+
+/*/////////////////////////////////////////////*/
+
+/*::-webkit-scrollbar {*/
+    /*width: 8px;*/
+/*}*/
+
+/* Track */
+/*::-webkit-scrollbar-track {*/
+    /*-webkit-border-radius: 2px;*/
+    /*border-radius: 2px;*/
+/*}*/
+
+/* Handle */
+/*::-webkit-scrollbar-thumb {*/
+    /*-webkit-border-radius: 2px;*/
+    /*border-radius: 2px;*/
+    /*background: #222;*/
+/*}*/
+
+/*////////////////////////////////////////////*/
+
 #page-wrap {
     width: 100%;
     margin: 0 auto;
@@ -11,7 +36,6 @@ body, header, nav, section, article, footer, ul, li, p, a, h1 {
 
 body {
     font: 16px Rale, Arial, sans-serif;
-    overflow: hidden;
 }
 
 @font-face {
