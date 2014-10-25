@@ -3,35 +3,14 @@ body, header, nav, section, article, footer, ul, li, p, a, h1 {
     padding: 0;
 }
 
-html{
+html {
     overflow-y: scroll;
 }
-
-/*/////////////////////////////////////////////*/
-
-/*::-webkit-scrollbar {*/
-    /*width: 8px;*/
-/*}*/
-
-/* Track */
-/*::-webkit-scrollbar-track {*/
-    /*-webkit-border-radius: 2px;*/
-    /*border-radius: 2px;*/
-/*}*/
-
-/* Handle */
-/*::-webkit-scrollbar-thumb {*/
-    /*-webkit-border-radius: 2px;*/
-    /*border-radius: 2px;*/
-    /*background: #222;*/
-/*}*/
-
-/*////////////////////////////////////////////*/
 
 #page-wrap {
     width: 100%;
     margin: 0 auto;
-    padding-top: 3.5%;
+    padding-top: 4.5%;
 }
 
 body {
@@ -53,7 +32,7 @@ body {
     src: url(../fonts/bambam-normal.ttf);
 }
 
-header {
+#page-wrap > header {
     position: fixed;
     top: 0;
     background-color: #222;
@@ -136,43 +115,41 @@ header {
     background-size: 100%;
 }
 
-.line {
-    display: inline-block;
-    margin: 0 50px;
-}
-
-.name {
-    display: inline-block;
-    margin: auto;
-}
-
-.firstImg, .secondImg, .thirdImg, .fourthImg, .fifthImg, div {
-    display: inline-block;
-}
-
-.firstImg, .secondImg, .thirdImg, .fourthImg, .fifthImg {
-    margin: 0 5%;
-}
-
-.firstRow, .secondRow {
-    height: 300px;
+section > header {
     text-align: center;
-    display: block;
 }
 
-h1 {
+section > header > .line, section > header > h1 {
+    display: inline-block;
+}
+
+section > header > h1 {
+    margin: 4% 0;
+    text-align: center;
     font-size: 4em;
     font-family: Bam;
 }
 
-.firstRow {
-    margin-top: 10%;
+section > header > .line {
+    width: 25%;
+    height: 2px;
+    margin: 0 2% 1% 2%;
+    background: #ccc;
+    border-radius: 50%;
 }
 
-.top {
-    width: 100%;
+.firstRow > div, .secondRow > div {
+    display: inline-block;
+}
+
+.firstRow > div, .secondRow > div {
+    margin: 0 5%;
+}
+
+.firstRow, .secondRow {
     text-align: center;
-    margin-top: 5%;
+    display: block;
+    margin-bottom: 3%;
 }
 
 .about {

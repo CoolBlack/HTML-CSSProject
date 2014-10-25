@@ -1,16 +1,16 @@
-body, header, nav, section, article, footer, ul, li, p, a, h1 {
+body, header, nav, section, article, footer, ul, li, p, a, h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     overflow-y: scroll;
 }
 
 #page-wrap {
     width: 100%;
     margin: 0 auto;
-    padding-top: 3.5%;
+    padding-top: 4.5%;
 }
 
 body {
@@ -36,7 +36,7 @@ header {
     text-align: center;
 }
 
-.topNav{
+.topNav {
     display: inline-block;
     width: 60%;
     height: 100%;
@@ -44,7 +44,7 @@ header {
     text-align: center;
 }
 
-#homebutton{
+#homebutton {
     float: left;
     width: 10%;
     height: 20px;
@@ -68,7 +68,7 @@ header {
     transition: all .75s;
 }
 
-.topNav > a:hover,#homebutton:hover {
+.topNav > a:hover, #homebutton:hover {
     color: #888;
 }
 
@@ -76,7 +76,7 @@ header {
     color: #888888;
 }
 
-.social{
+.social {
     float: right;
     display: inline-block;
     width: 18%;
@@ -84,58 +84,146 @@ header {
     padding: .8%;
 }
 
-.social > a{
+.social > a {
     display: inline-block;
     width: 40px;
     height: 40px;
 }
 
-.social .facebook{
+.social .facebook {
     background: url("../images/button_facebook.png");
     background-size: 100%;
 }
 
-.social .twitter{
+.social .twitter {
     background: url("../images/button_twitter.png");
     background-size: 100%;
 }
 
-.social .google{
+.social .google {
     background: url("../images/button_goggle_plus.png");
     background-size: 100%;
 }
 
-.social .pinterest{
+.social .pinterest {
     background: url("../images/button_pinterest.png");
     background-size: 100%;
 }
 
 section.mainContent {
-    width: 60%;
-    margin: 1% 10% 0 27.5%;
-}
-
-section.mainContent div.text {
-    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
-    font-size: .9em;
-    float: left;
-    max-width: 60%;
-    margin: 10% 3% 0 0;
+    padding: 3%;
 }
 
-section.mainContent div.pic > img {
-    content: url(../images/iphone.png);
-    max-width: 32%;
-    margin: 2rem auto;
+section.mainContent div.mainText {
+    width: 35%;
+    float: right;
+    display: inline-block;
+    text-align: left;
+    padding: 13% 0 0 0;
+}
+
+section.mainContent div h1 {
+    font-family: Rale-Bold, Arial, sans-serif;
+    font-size: 3em;
+}
+
+section.mainContent div h2 {
+    font-family: Rale-Bold, Arial, sans-serif;
+    font-size: 2em;
+}
+
+section.mainContent div h3 {
+    font-family: Rale-Bold, Arial, sans-serif;
+    font-size: 1.7em;
+    padding: 2% 0 3% 0;
+}
+
+section.mainContent div h4 {
+    font-family: Rale-Bold, Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 2% 0 3% 0;
+}
+
+section.mainContent div.text > p {
+    font-family: Rale, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+section.mainContent > div.mainPic {
+    width: 60%;
+    max-width: 60%;
+    height: 450px;
+    background: url(../images/iNakov00.jpg) no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+    margin: 3% 0 5% 0;
+}
+
+.hLine {
+    width: 100%;
+    text-align: center;
+    height: 2px;
+    background: #eee;
+    border-radius: 50%;
+    margin: 3% 0;
+}
+
+.vLine {
+    display: inline-block;
+    vertical-align: middle;
+    background: #eee;
+    width: 2px;
+    height: 270px;
+    margin: 0 5%;
+    border-radius: 50%;
+}
+
+.iFunc1Pic, .iFunc2Pic {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    height: 240px;
+}
+
+.iFunc1Pic {
+    background: url("../images/iNakov01.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc2Pic {
+    background: url("../images/iNakov02.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc1Text, .iFunc2Text {
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+}
+
+.iFunc1Text {
+    text-align: right;
+}
+
+.iFunc2Text {
+    text-align: left;
 }
 
 p.copyright {
     position: absolute;
-    bottom: 0;
     float: left;
     color: #6e6e6e;
     padding: .2rem 0 .2rem .7rem;
     font-size: .8rem;
 }
 
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
