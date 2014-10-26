@@ -177,11 +177,17 @@ header {
 /*END OF SLIDER*/
 
 p.copyright {
-    position: absolute;
-    bottom: 0;
-    float: left;
+    vertical-align: bottom;
+    text-align: left;
     color: #6e6e6e;
     padding: .2rem 0 .2rem .7rem;
     font-size: .8rem;
 }
 
+ section.banner div.bnr {
+    width: 31%;
+    height: 250px;
+    display: inline-block;
+    margin: 0 1%;
+    background: red;
+ }
