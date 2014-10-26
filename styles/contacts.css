@@ -126,12 +126,11 @@ section.mainContent div.text {
     margin: 3% 3% 0 0;
 }
 
-<<<<<<< HEAD
 p.copyright {
     position: absolute;
     bottom: 0;
     float: left;
-=======
+}
  p.copyright {
     vertical-align: bottom;
     text-align: left;
@@ -146,7 +145,6 @@ p.copyright {
 .mainContent p {
     margin-top: 30px;
     text-align: center;
->>>>>>> 1b15efb13b5fe49101db6e7ea61f5a1ab8297b56
     color: #6e6e6e;
 }
 
