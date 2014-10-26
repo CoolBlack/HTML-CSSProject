@@ -126,11 +126,7 @@ section.mainContent div.text {
     margin: 10% 3% 0 0;
 }
 
-section.mainContent div.pic > img {
-    content: url(../images/iphone.png);
-    max-width: 32%;
-    margin: 2rem auto;
-}
+
 
 p.copyright {
     position: absolute;
@@ -141,3 +137,16 @@ p.copyright {
     font-size: .8rem;
 }
 
+.mainContent p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mainContent span {
+    font-weight: 800;
+    font-size: 16px;
+
+}
+.mainContent p::first-letter {
+    font-size: 26px;
+}
