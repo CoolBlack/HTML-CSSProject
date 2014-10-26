@@ -10,7 +10,7 @@ html {
 #page-wrap {
     width: 100%;
     margin: 0 auto;
-    padding-top: 4.5%;
+    padding-top: 60px;
 }
 
 body {
@@ -46,22 +46,21 @@ header {
 
 #homebutton {
     float: left;
-    width: 10%;
+    width: 120px;
     height: 20px;
-    margin: 1% 0 0 2%;
-    padding: .5% .5%;
+    margin: 13px 0 0 25px;
+    padding: 6px 6px;
     color: #ffffff;
     text-decoration: none;
     text-align: right;
     background: url("../images/logo_new.png") no-repeat;
     background-size: 20%;
     background-position: 20% 50%;
-    transition: all .75s;
 }
 
 .topNav a {
     display: inline-block;
-    margin: 1.9% 4%;
+    margin: 15px 32px;
     padding: .5% .5%;
     text-decoration: none;
     color: #ffffff;
