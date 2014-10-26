@@ -126,12 +126,6 @@ section.mainContent div.text {
     margin: 10% 3% 0 0;
 }
 
-section.mainContent div.pic > img {
-    content: url(../images/iphone.png);
-    max-width: 32%;
-    margin: 2rem auto;
-}
-
 p.copyright {
     position: absolute;
     bottom: 0;
