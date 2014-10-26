@@ -126,15 +126,15 @@ section.mainContent div.text {
     margin: 3% 3% 0 0;
 }
 
-
-
-p.copyright {
-    position: absolute;
-    bottom: 0;
-    float: left;
-    color: #6e6e6e;
+ p.copyright {
+    vertical-align: bottom;
+    text-align: left;
+    color: white;
     padding: .2rem 0 .2rem .7rem;
     font-size: .8rem;
+    background: #222;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .mainContent p {

@@ -176,3 +176,14 @@ section > header > .line {
     background: url("../images/p.png");
     background-size: 100%;
  }
+
+ p.copyright {
+    vertical-align: bottom;
+    text-align: left;
+    color: white;
+    padding: .2rem 0 .2rem .7rem;
+    font-size: .8rem;
+    background: #222;
+    width: 100%;
+    box-sizing: border-box;
+}
