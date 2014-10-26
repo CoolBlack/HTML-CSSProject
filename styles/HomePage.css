@@ -184,10 +184,15 @@ p.copyright {
     font-size: .8rem;
 }
 
+section.banner {
+    width: 100%;
+    text-align: center;
+}
+
  section.banner div.bnr {
     width: 31%;
     height: 250px;
     display: inline-block;
-    margin: 0 1%;
+    margin: 0 0.03%;
     background: red;
  }
