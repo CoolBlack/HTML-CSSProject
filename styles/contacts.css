@@ -120,11 +120,13 @@ section.mainContent {
 section.mainContent div.text {
     display: inline-block;
     width: auto;
+    margin-top: 3%;
+    margin-bottom: 8%;
     text-align: center;
     font-size: .9em;
 }
 
- p.copyright {
+p.copyright {
     vertical-align: bottom;
     text-align: left;
     color: white;
@@ -133,7 +135,6 @@ section.mainContent div.text {
     background: #222;
     width: 100%;
     box-sizing: border-box;
-    clear: both;
 }
 
 .mainContent p {
@@ -173,3 +174,10 @@ section.mainContent div.text {
     background: url("../images/p.png");
     background-size: 100%;
  }
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+

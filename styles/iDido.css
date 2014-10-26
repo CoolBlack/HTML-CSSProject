@@ -171,7 +171,7 @@ section.mainContent > div.mainPic {
     margin: 3% 0;
 }
 
-.vLine{
+.vLine {
     display: inline-block;
     vertical-align: middle;
     background: #eee;
@@ -188,14 +188,14 @@ section.mainContent > div.mainPic {
     height: 240px;
 }
 
-.iFunc1Pic{
+.iFunc1Pic {
     /*background: url("../images/iNakov01.jpg") no-repeat center;*/
     background: green;
     background-size: 100%;
     border-radius: 10px;
 }
 
-.iFunc2Pic{
+.iFunc2Pic {
     /*background: url("../images/iNakov02.jpg") no-repeat center;*/
     background: yellow;
     background-size: 100%;
@@ -208,15 +208,15 @@ section.mainContent > div.mainPic {
     vertical-align: middle;
 }
 
-.iFunc1Text{
+.iFunc1Text {
     text-align: right;
 }
 
-.iFunc2Text{
+.iFunc2Text {
     text-align: left;
 }
 
- p.copyright {
+p.copyright {
     vertical-align: bottom;
     text-align: left;
     color: white;
@@ -233,22 +233,22 @@ section.mainContent > div.mainPic {
     clear: both;
 }
 
- body div#page-wrap header div.social a.facebook:hover {
+body div#page-wrap header div.social a.facebook:hover {
     background: url("../images/fb.png");
     background-size: 100%;
- }
+}
 
- body div#page-wrap header div.social a.twitter:hover {
+body div#page-wrap header div.social a.twitter:hover {
     background: url("../images/t.png");
     background-size: 100%;
- }
+}
 
- body div#page-wrap header div.social a.google:hover {
+body div#page-wrap header div.social a.google:hover {
     background: url("../images/g.png");
     background-size: 100%;
- }
+}
 
- body div#page-wrap header div.social a.pinterest:hover {
+body div#page-wrap header div.social a.pinterest:hover {
     background: url("../images/p.png");
     background-size: 100%;
- }
+}
