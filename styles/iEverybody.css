@@ -61,3 +61,14 @@ section > header > ul > li > a {
     border-radius: 50%;
     background: #ccc;
 }
+
+ p.copyright {
+    vertical-align: baseline;
+    text-align: left;
+    color: white;
+    padding: .2rem 0 .2rem .7rem;
+    font-size: .8rem;
+    background: #222;
+    width: 100%;
+    box-sizing: border-box;
+}

@@ -126,11 +126,6 @@ section.mainContent div.text {
     margin: 3% 3% 0 0;
 }
 
-p.copyright {
-    position: absolute;
-    bottom: 0;
-    float: left;
-}
  p.copyright {
     vertical-align: bottom;
     text-align: left;
@@ -140,6 +135,7 @@ p.copyright {
     background: #222;
     width: 100%;
     box-sizing: border-box;
+    clear: both;
 }
 
 .mainContent p {
