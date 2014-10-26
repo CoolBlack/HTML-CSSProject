@@ -71,4 +71,13 @@ section > header > ul > li > a {
     background: #222;
     width: 100%;
     box-sizing: border-box;
+    clear: both;
+    margin: 0 auto;
+}
+
+body section header article {
+    display: block;
+    width: 96%;
+    text-align: center;
+    clear: both;
 }
