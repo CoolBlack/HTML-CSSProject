@@ -123,7 +123,7 @@ section.mainContent div.text {
     font-size: .9em;
     float: left;
     max-width: 80%;
-    margin: 10% 3% 0 0;
+    margin: 3% 3% 0 0;
 }
 
 
@@ -140,17 +140,21 @@ p.copyright {
 .mainContent p {
     margin-top: 30px;
     text-align: center;
+    color: #6e6e6e;
 }
 
 .mainContent span {
     font-weight: 800;
     font-size: 16px;
+    color: #000;
 
 }
 .mainContent p::first-letter {
     font-size: 26px;
 }
-
+#page-wrap > section > div > p > span:nth-child(2) > span {
+    font-size: 26px;
+}
  body div#page-wrap header div.social a.facebook:hover {
     background: url("../images/fb.png");
     background-size: 100%;
