@@ -156,3 +156,34 @@ section > header > .line {
     font-family: Bam;
     font-size: 2em;
 }
+
+ body div#page-wrap header div.social a.facebook:hover {
+    background: url("../images/fb.png");
+    background-size: 100%;
+ }
+
+ body div#page-wrap header div.social a.twitter:hover {
+    background: url("../images/t.png");
+    background-size: 100%;
+ }
+
+ body div#page-wrap header div.social a.google:hover {
+    background: url("../images/g.png");
+    background-size: 100%;
+ }
+
+ body div#page-wrap header div.social a.pinterest:hover {
+    background: url("../images/p.png");
+    background-size: 100%;
+ }
+
+ p.copyright {
+    vertical-align: bottom;
+    text-align: left;
+    color: white;
+    padding: .2rem 0 .2rem .7rem;
+    font-size: .8rem;
+    background: #222;
+    width: 100%;
+    box-sizing: border-box;
+}
