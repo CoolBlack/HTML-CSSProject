@@ -115,8 +115,7 @@ header {
     position: relative;
     width: 100%;
 }
-
-.progressContainer {
+.progressContainer{
     width: 69px;
     height: 15px;
     margin: 10px auto;
@@ -150,7 +149,7 @@ header {
     margin-left: 46px;
 }
 
-.container {
+.container{
     background: #ffffff;
     margin: 0 auto;
 }
@@ -169,7 +168,7 @@ header {
     max-height: 100%;
     text-align: center;
     margin: 0 auto;
-    transition: all .5s;
+    transition:all .5s;
 }
 
 .contentSwitcher:first-of-type {
@@ -178,56 +177,49 @@ header {
 
 /*END OF SLIDER*/
 
-section.banner {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-}
-
-div.imageContainer {
-    float: left;
-    width: 33.2%;
-    height: 300px;
-    display: inline-block;
-    margin: 0 0.06%;
-    background: url("../images/isPresidents.jpg") no-repeat center;
-    background-size: 100%;
-    overflow: hidden;
-}
-
-p.copyright {
+ p.copyright {
+    vertical-align: bottom;
     text-align: left;
     color: white;
+    padding: .2rem 0 .2rem .7rem;
     font-size: .8rem;
     background: #222;
-    padding: .5rem 0 .5rem .7rem;
-    margin-top: 1px;
+    width: 100%;
     box-sizing: border-box;
 }
 
-body div#page-wrap header div.social a.facebook:hover {
+section.banner {
+    width: 100%;
+    text-align: center;
+    height: 250px;
+    margin: 5px 0 1px 0;
+
+}
+
+ div.image {
+    width: 33.1%;
+    height: 250px;
+    display: inline-block;
+    margin: 0 0.03%;
+    background: red;
+ }
+
+ body div#page-wrap header div.social a.facebook:hover {
     background: url("../images/fb.png");
     background-size: 100%;
-}
+ }
 
-body div#page-wrap header div.social a.twitter:hover {
+ body div#page-wrap header div.social a.twitter:hover {
     background: url("../images/t.png");
     background-size: 100%;
-}
+ }
 
-body div#page-wrap header div.social a.google:hover {
+ body div#page-wrap header div.social a.google:hover {
     background: url("../images/g.png");
     background-size: 100%;
-}
+ }
 
-body div#page-wrap header div.social a.pinterest:hover {
+ body div#page-wrap header div.social a.pinterest:hover {
     background: url("../images/p.png");
     background-size: 100%;
-}
-
-.cleafix:after{
-    content: "";
-    clear: both;
-    display: block;
-}
+ }
