@@ -176,7 +176,7 @@ section.mainContent > div.mainPic {
     width: 50%;
     max-width: 60%;
     height: 450px;
-    background: #898988;
+    background: url("../images/dido-main.jpg") no-repeat center;
     background-size: 100%;
     border-radius: 10px;
     margin: 3% 0;
@@ -202,7 +202,7 @@ section.mainContent > div.mainPic {
     border-radius: 50%;
 }
 
-.iFunc1Pic, .iFunc2Pic {
+.iFunc1Pic, .iFunc2Pic, .iFunc3Pic, .iFunc4Pic {
     display: inline-block;
     vertical-align: middle;
     width: 35%;
@@ -210,27 +210,38 @@ section.mainContent > div.mainPic {
 }
 
 .iFunc1Pic {
-    background: #b5b5b5;
+    background: url("../images/Dido_balance.jpg") no-repeat center;
     background-size: 100%;
     border-radius: 10px;
 }
 
 .iFunc2Pic {
+    background: url("../images/Dido-dance.jpg") no-repeat center;
     background-size: 100%;
     border-radius: 10px;
 }
 
-.iFunc1Text, .iFunc2Text {
+.iFunc3Pic {
+    background: url("../images/dido-zyrna.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc4Pic video{
+    object-fit: cover;
+}
+
+.iFunc1Text, .iFunc2Text, .iFunc3Text, .iFunc4Text {
     display: inline-block;
     width: 35%;
     vertical-align: middle;
 }
 
-.iFunc1Text {
+.iFunc1Text, .iFunc3Text {
     text-align: right;
 }
 
-.iFunc2Text {
+.iFunc2Text, .iFunc4Text {
     text-align: left;
 }
 
