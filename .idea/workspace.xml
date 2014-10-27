@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10695f7e-db6e-474f-a9f1-e590d9a9676c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/kofi.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/iDido.css" afterPath="$PROJECT_DIR$/styles/iDido.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iDido.html" afterPath="$PROJECT_DIR$/iDido.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iNakov.html" afterPath="$PROJECT_DIR$/iNakov.html" />
     </list>
     <ignored path="HTML-CSSProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="iDido.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iDido.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iDido.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9011628" vertical-offset="660" max-vertical-offset="1380">
+            <state vertical-scroll-proportion="-19.375" vertical-offset="660" max-vertical-offset="1380">
               <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iNakov.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/iNakov.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="3960">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iNakov.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iNakov.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7164461" vertical-offset="791" max-vertical-offset="1335">
+              <caret line="78" column="91" selection-start-line="78" selection-start-column="91" selection-end-line="78" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -538,20 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iNakov.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34136546" vertical-offset="0" max-vertical-offset="1496">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/iNakov.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28519195" vertical-offset="14" max-vertical-offset="4488">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/HomePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2797075" vertical-offset="0" max-vertical-offset="3910">
@@ -576,8 +579,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iDido.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9011628" vertical-offset="660" max-vertical-offset="1380">
+        <state vertical-scroll-proportion="-19.375" vertical-offset="660" max-vertical-offset="1380">
           <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/iNakov.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="3960">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iNakov.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7164461" vertical-offset="791" max-vertical-offset="1335">
+          <caret line="78" column="91" selection-start-line="78" selection-start-column="91" selection-end-line="78" selection-end-column="91" />
           <folding />
         </state>
       </provider>
