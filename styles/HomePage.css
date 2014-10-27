@@ -215,7 +215,7 @@ div.imageContainer {
     height: 300px;
     display: inline-block;
     margin: 0 0.06%;
-    background: url("../images/isPresidents.jpg") no-repeat center;
+    background: url("../images/baner1.jpg") no-repeat center;
     background-size: 100%;
     transition: height 0.5s ease-in-out;
 }
