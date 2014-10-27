@@ -60,7 +60,7 @@ header {
 
 .topNav a {
     display: inline-block;
-    margin: 15px 32px;
+    margin: 15px 30px;
     padding: .5% .5%;
     text-decoration: none;
     color: #ffffff;
@@ -90,22 +90,42 @@ header {
 }
 
 .social .facebook {
-    background: url("../images/button_facebook.png");
+    background: url("../images/button_facebook.png") no-repeat center;
     background-size: 100%;
 }
 
 .social .twitter {
-    background: url("../images/button_twitter.png");
+    background: url("../images/button_twitter.png") no-repeat center;
     background-size: 100%;
 }
 
 .social .google {
-    background: url("../images/button_goggle_plus.png");
+    background: url("../images/button_goggle_plus.png") no-repeat center;
     background-size: 100%;
 }
 
 .social .pinterest {
-    background: url("../images/button_pinterest.png");
+    background: url("../images/button_pinterest.png") no-repeat center;
+    background-size: 100%;
+}
+
+.social a.facebook:hover {
+    background: url("../images/fb.png") no-repeat center;
+    background-size: 100%;
+}
+
+.social a.twitter:hover {
+    background: url("../images/t.png") no-repeat center;
+    background-size: 100%;
+}
+
+.social a.google:hover {
+    background: url("../images/g.png") no-repeat center;
+    background-size: 100%;
+}
+
+.social a.pinterest:hover {
+    background: url("../images/p.png") no-repeat center;
     background-size: 100%;
 }
 
@@ -188,7 +208,7 @@ section.mainContent > div.mainPic {
 }
 
 .iFunc1Pic {
-    background: url("../images/iNakov07.jpg") no-repeat center;
+    background: url("../images/iNakov01.jpg") no-repeat center;
     background-size: 100%;
     border-radius: 10px;
 }
@@ -225,26 +245,6 @@ p.copyright {
     content: "";
     display: block;
     clear: both;
-}
-
-body div#page-wrap header div.social a.facebook:hover {
-    background: url("../images/fb.png");
-    background-size: 100%;
-}
-
-body div#page-wrap header div.social a.twitter:hover {
-    background: url("../images/t.png");
-    background-size: 100%;
-}
-
-body div#page-wrap header div.social a.google:hover {
-    background: url("../images/g.png");
-    background-size: 100%;
-}
-
-body div#page-wrap header div.social a.pinterest:hover {
-    background: url("../images/p.png");
-    background-size: 100%;
 }
 
 p.copyright {
