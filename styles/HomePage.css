@@ -230,7 +230,7 @@ p.copyright {
     box-sizing: border-box;
 }
 
-.cleafix:after {
+.clearfix:after {
     content: "";
     clear: both;
     display: block;

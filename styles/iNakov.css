@@ -130,7 +130,7 @@ header {
 }
 
 section.mainContent {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     padding: 3%;
@@ -141,7 +141,7 @@ section.mainContent div.mainText {
     float: right;
     display: inline-block;
     text-align: left;
-    padding: 13% 0 0 0;
+    padding: 13% 3% 0 0;
 }
 
 section.mainContent div h1 {
@@ -172,13 +172,15 @@ section.mainContent div.text > p {
 }
 
 section.mainContent > div.mainPic {
-    width: 60%;
+    display: inline-block;
+    width: 50%;
     max-width: 60%;
     height: 450px;
     background: url(../images/iNakov00.jpg) no-repeat center;
     background-size: 100%;
     border-radius: 10px;
-    margin: 3% 0 5% 0;
+    margin: 3% 0;
+    transition: height .5s ease-in-out;
 }
 
 .hLine {
@@ -256,4 +258,264 @@ p.copyright {
     background: #222;
     width: 100%;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .topNav {
+        width: 55%;
+    }
+
+    .topNav a {
+        margin: 15px 20px;
+    }
+
+    #homebutton {
+        margin-left: 10px;
+    }
+
+    .social {
+        width: 204px;
+    }
+
+    section.mainContent > div.mainPic{
+        height: 400px;
+        margin: 3% 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        font-size: 15px;
+    }
+
+    #page-wrap {
+        padding-top: 50px;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .topNav a {
+        margin: 15px 15px;
+    }
+
+    #homebutton {
+        background-size: 20%;
+        background-position: 25% 40%;
+    }
+
+    .social {
+        width: 157px;
+    }
+
+    .social > a {
+        width: 32px;
+        height: 32px;
+    }
+
+    section.mainContent > div.mainPic{
+        height: 350px;
+        margin: 3% 0;
+    }
+
+    section.mainContent div.mainText{
+        padding-top: 10%;
+    }
+
+    .iFunc1Text, .iFunc2Text{
+        width: 40%;
+    }
+
+    .iFunc1Pic, .iFunc2Pic{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    #page-wrap {
+        padding-top: 60px;
+    }
+
+    .topNav {
+        width: 45%;
+        margin: 5px auto;
+    }
+
+    .topNav a {
+        width: 110px;
+        margin: 3px 10px;
+        white-space: nowrap;
+    }
+
+    .social {
+        height: 50px;
+        width: 178px;
+    }
+
+    .social > a {
+        height: 45px;
+        margin: 2px;
+    }
+
+    #homebutton {
+        margin-left: 0;
+    }
+
+    section.mainContent{
+        width: 100%;
+        padding: 2% 0 0 0;
+    }
+
+    section.mainContent > div.mainPic{
+        height: 250px;
+        margin: 3% 0;
+    }
+
+    section.mainContent > div.mainText{
+        padding-top: 5%;
+    }
+
+    .iFunc1Text, .iFunc2Text{
+        width: 43%;
+    }
+
+    .iFunc1Pic, .iFunc2Pic{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #page-wrap {
+        padding-top: 100px;
+    }
+
+    header {
+        height: 100px;
+        text-align: center;
+    }
+
+    #homebutton {
+        float: left;
+        width: 119px;
+        padding: 12px 0 12px 89px;
+        font-size: 1.3em;
+        background-size: 15%;
+        background-position: 45% 50%;
+        text-align: right;
+    }
+
+    .topNav {
+        float: left;
+        clear: left;
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .topNav a {
+        width: 95px;
+        margin: 5px 5px;
+    }
+
+    .social {
+        float: none;
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .social > a {
+        width: 35px;
+        height: 35px;
+        margin: auto 5px;
+    }
+
+    section.mainContent > div.mainText{
+        width: 46%;
+        padding-right: 1%;
+    }
+
+    div.vLine{
+        display: none;
+    }
+
+    .iFunc1Text, .iFunc2Text{
+        width: 47%;
+        margin: auto 10px;
+    }
+
+    .iFunc1Pic, .iFunc2Pic{
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        height: 160px;
+    }
+
+    #page-wrap{
+        padding-top: 160px;
+    }
+
+    #homebutton{
+        display: block;
+        width: 86%;
+        padding: 1% 0 1% 14%;
+        text-align: center;
+        background-size: 8%;
+        background-position: 35% 50%;
+    }
+
+    .topNav {
+        width: 100%;
+    }
+
+    .topNav a {
+        display: block;
+        width: 100%;
+        height: 22px;
+        margin: 0;
+    }
+
+    .social{
+        width: 40px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
+
+    .social a {
+        height: 35px;
+        display: block;
+        padding: 0;
+    }
+
+    section.mainContent div h1{
+        font-size: 1.6em;
+    }
+
+    section.mainContent div h2{
+        font-size: 1.4em;
+    }
+
+    section.mainContent div h3{
+        font-size: 1.2em;
+    }
+
+    section.mainContent div h4{
+        font-size: 1.1em;
+    }
 }
