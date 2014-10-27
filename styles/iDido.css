@@ -202,7 +202,7 @@ section.mainContent > div.mainPic {
     border-radius: 50%;
 }
 
-.iFunc1Pic, .iFunc2Pic, .iFunc3Pic, .iFunc4Pic {
+.iFunc1Pic, .iFunc2Pic, .iFunc3Pic, .iFunc4Pic, .iFunc5Pic, .iFunc6Pic, .iFunc7Pic {
     display: inline-block;
     vertical-align: middle;
     width: 35%;
@@ -231,17 +231,35 @@ section.mainContent > div.mainPic {
     object-fit: cover;
 }
 
-.iFunc1Text, .iFunc2Text, .iFunc3Text, .iFunc4Text {
+.iFunc5Pic {
+    background: url("../images/iDido01.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc6Pic {
+    background: url("../images/iDido02.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc7Pic {
+    background: url("../images/iDido03.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc1Text, .iFunc2Text, .iFunc3Text, .iFunc4Text, .iFunc5Text, .iFunc6Text, .iFunc7Text {
     display: inline-block;
     width: 35%;
     vertical-align: middle;
 }
 
-.iFunc1Text, .iFunc3Text {
+.iFunc1Text, .iFunc3Text, .iFunc5Text, .iFunc7Text {
     text-align: right;
 }
 
-.iFunc2Text, .iFunc4Text {
+.iFunc2Text, .iFunc4Text, .iFunc6Text {
     text-align: left;
 }
 
