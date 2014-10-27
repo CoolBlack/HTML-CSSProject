@@ -197,9 +197,14 @@ section.mainContent > div.mainPic {
 
 .iFunc2Pic {
     /*background: url("../images/iNakov02.jpg") no-repeat center;*/
-    background: yellow;
     background-size: 100%;
     border-radius: 10px;
+}
+.iFunc2Pic video {
+    height: 100%;
+    border: solid 1px #000;
+    margin: 2px;
+    padding: 0;
 }
 
 .iFunc1Text, .iFunc2Text {
