@@ -109,8 +109,8 @@ body {
     background-size: 100%;
 }
 
-.social .pinterest {
-    background: url("../images/button_pinterest.png") no-repeat center;
+.social .softuni {
+    background: url("../images/soft-uni.png") no-repeat center;
     background-size: 100%;
 }
 
@@ -129,8 +129,8 @@ body {
     background-size: 100%;
 }
 
-.social a.pinterest:hover {
-    background: url("../images/p.png") no-repeat center;
+.social a.softuni:hover {
+    background: url("../images/su.png") no-repeat center;
     background-size: 100%;
 }
 
