@@ -227,6 +227,10 @@ section.mainContent > div.mainPic {
     vertical-align: middle;
 }
 
+.iFunc1Text p, .iFunc2Text p{
+    text-align: justify;
+}
+
 .iFunc1Text {
     text-align: right;
 }
@@ -247,6 +251,10 @@ p.copyright {
     content: "";
     display: block;
     clear: both;
+}
+
+footer a{
+    float: right;
 }
 
 p.copyright {

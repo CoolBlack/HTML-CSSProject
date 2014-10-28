@@ -61,7 +61,7 @@ header {
 
 .topNav a {
     display: inline-block;
-    margin: 15px 32px;
+    margin: 15px 30px;
     padding: .5% .5%;
     text-decoration: none;
     color: #ffffff;
@@ -145,14 +145,17 @@ section.mainContent div.text {
     font-size: .9em;
 }
 
+footer a{
+    float: right;
+}
+
 p.copyright {
-    vertical-align: bottom;
     text-align: left;
     color: white;
-    padding: .2rem 0 .2rem .7rem;
     font-size: .8rem;
     background: #222;
-    width: 100%;
+    padding: .5rem 0 .5rem .7rem;
+    margin-top: 1px;
     box-sizing: border-box;
 }
 
@@ -179,5 +182,183 @@ p.copyright {
     content: "";
     display: block;
     clear: both;
+}
+
+@media screen and (max-width: 1024px) {
+    .topNav {
+        width: 55%;
+    }
+
+    .topNav a {
+        margin: 15px 20px;
+    }
+
+    #homebutton {
+        margin-left: 10px;
+    }
+
+    .social {
+        width: 204px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        font-size: 15px;
+    }
+
+    #page-wrap {
+        padding-top: 50px;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .topNav a {
+        margin: 15px 15px;
+    }
+
+    #homebutton {
+        background-size: 20%;
+        background-position: 25% 40%;
+    }
+
+    .social {
+        width: 157px;
+    }
+
+    .social > a {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 60px;
+    }
+
+    #page-wrap {
+        padding-top: 60px;
+    }
+
+    .topNav {
+        width: 45%;
+        margin: 5px auto;
+    }
+
+    .topNav a {
+        width: 110px;
+        margin: 3px 10px;
+        white-space: nowrap;
+    }
+
+    .social {
+        height: 50px;
+        width: 178px;
+    }
+
+    .social > a {
+        height: 45px;
+        margin: 2px;
+    }
+
+    #homebutton {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #page-wrap {
+        padding-top: 100px;
+    }
+
+    #page-wrap > header {
+        height: 100px;
+        text-align: center;
+    }
+
+    #homebutton {
+        float: left;
+        width: 119px;
+        padding: 12px 0 12px 89px;
+        font-size: 1.3em;
+        background-size: 15%;
+        background-position: 45% 50%;
+        text-align: right;
+    }
+
+    .topNav {
+        float: left;
+        clear: left;
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .topNav a {
+        width: 95px;
+        margin: 5px 5px;
+    }
+
+    .social {
+        float: none;
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .social > a {
+        width: 35px;
+        height: 35px;
+        margin: auto 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #page-wrap > header {
+        height: 160px;
+    }
+
+    #page-wrap {
+        padding-top: 160px;
+    }
+
+    #homebutton {
+        display: block;
+        width: 86%;
+        padding: 1% 0 1% 14%;
+        text-align: center;
+        background-size: 8%;
+        background-position: 35% 50%;
+    }
+
+    .topNav {
+        width: 100%;
+    }
+
+    .topNav a {
+        display: block;
+        width: 100%;
+        height: 22px;
+        margin: 0;
+    }
+
+    .social {
+        width: 40px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
+
+    .social a {
+        height: 35px;
+        display: block;
+        padding: 0;
+    }
 }
 

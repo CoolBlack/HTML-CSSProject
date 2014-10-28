@@ -231,6 +231,10 @@ div.imageContainer {
     background: url("../images/baner3.jpg") no-repeat center;
 }
 
+footer a{
+    float: right;
+}
+
 p.copyright {
     text-align: left;
     color: white;
@@ -263,7 +267,7 @@ p.copyright {
     }
 
     div.imageContainer {
-        height: 240px;
+        height: 190px;
     }
 
     .social {
@@ -303,7 +307,7 @@ p.copyright {
     }
 
     div.imageContainer {
-        height: 230px;
+        height: 170px;
     }
 }
 
@@ -342,7 +346,7 @@ p.copyright {
     }
 
     div.imageContainer {
-        height: 190px;
+        height: 130px;
     }
 }
 
@@ -380,7 +384,11 @@ p.copyright {
     }
 
     div.imageContainer {
-        height: 150px;
+        display: block;
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+        height: 310px;
     }
 
     .social {
@@ -443,6 +451,12 @@ p.copyright {
     }
 
     div.imageContainer {
-        height: 110px;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div.imageContainer {
+        height: 120px;
     }
 }
