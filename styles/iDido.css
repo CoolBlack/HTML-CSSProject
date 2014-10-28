@@ -238,6 +238,7 @@ section.mainContent > div.mainPic {
 }
 
 .iFunc6Pic {
+    width: 50%;
     background: url("../images/iDido02.jpg") no-repeat center;
     background-size: 100%;
     border-radius: 10px;
@@ -255,15 +256,11 @@ section.mainContent > div.mainPic {
     vertical-align: middle;
 }
 
-<<<<<<< HEAD
 .iFunc1Text p, .iFunc3Text p, .iFunc2Text p, .iFunc4Text p {
     text-align: justify;
 }
 
-.iFunc1Text, .iFunc3Text{
-=======
 .iFunc1Text, .iFunc3Text, .iFunc5Text, .iFunc7Text {
->>>>>>> origin/master
     text-align: right;
 }
 

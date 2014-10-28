@@ -257,15 +257,11 @@ section.mainContent > div.mainPic {
     vertical-align: middle;
 }
 
-<<<<<<< HEAD
 .iFunc1Text p, .iFunc2Text p{
     text-align: justify;
 }
 
-.iFunc1Text {
-=======
 .iFunc1Text, .iFunc3Text, .iFunc5Text, .iFunc7Text {
->>>>>>> origin/master
     text-align: right;
 }
 
