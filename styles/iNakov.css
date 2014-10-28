@@ -104,8 +104,8 @@ header {
     background-size: 100%;
 }
 
-.social .pinterest {
-    background: url("../images/button_pinterest.png") no-repeat center;
+.social .softuni {
+    background: url("../images/soft-uni.png") no-repeat center;
     background-size: 100%;
 }
 
@@ -124,8 +124,8 @@ header {
     background-size: 100%;
 }
 
-.social a.pinterest:hover {
-    background: url("../images/p.png") no-repeat center;
+.social a.softuni:hover {
+    background: url("../images/su.png") no-repeat center;
     background-size: 100%;
 }
 
@@ -176,7 +176,7 @@ section.mainContent > div.mainPic {
     width: 50%;
     max-width: 60%;
     height: 450px;
-    background: url(../images/iNakov00.jpg) no-repeat center;
+    background: url(../images/iNakovBla.jpg) no-repeat center;
     background-size: 100%;
     border-radius: 10px;
     margin: 3% 0;
@@ -202,7 +202,7 @@ section.mainContent > div.mainPic {
     border-radius: 50%;
 }
 
-.iFunc1Pic, .iFunc2Pic {
+.iFunc1Pic, .iFunc2Pic, .iFunc3Pic, .iFunc4Pic, .iFunc5Pic, .iFunc6Pic, .iFunc7Pic {
     display: inline-block;
     vertical-align: middle;
     width: 35%;
@@ -210,7 +210,7 @@ section.mainContent > div.mainPic {
 }
 
 .iFunc1Pic {
-    background: url("../images/iNakov01.jpg") no-repeat center;
+    background: url("../images/iNakov07.jpg") no-repeat center;
     background-size: 100%;
     border-radius: 10px;
 }
@@ -221,21 +221,55 @@ section.mainContent > div.mainPic {
     border-radius: 10px;
 }
 
-.iFunc1Text, .iFunc2Text {
+.iFunc3Pic {
+    background: url("../images/iFather2.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc4Pic {
+    background: url("../images/iFather1.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc5Pic {
+    background: url("../images/iNakov05.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc6Pic {
+    background: url("../images/iNakov01.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc7Pic {
+    background: url("../images/iNakovNargile.jpg") no-repeat center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.iFunc1Text, .iFunc2Text, .iFunc3Text, .iFunc4Text, .iFunc5Text, .iFunc6Text, .iFunc7Text {
     display: inline-block;
     width: 35%;
     vertical-align: middle;
 }
 
+<<<<<<< HEAD
 .iFunc1Text p, .iFunc2Text p{
     text-align: justify;
 }
 
 .iFunc1Text {
+=======
+.iFunc1Text, .iFunc3Text, .iFunc5Text, .iFunc7Text {
+>>>>>>> origin/master
     text-align: right;
 }
 
-.iFunc2Text {
+.iFunc2Text, .iFunc4Text, .iFunc6Text {
     text-align: left;
 }
 
