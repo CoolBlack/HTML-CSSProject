@@ -257,7 +257,7 @@ section.mainContent > div.mainPic {
     vertical-align: middle;
 }
 
-.iFunc1Text p, .iFunc2Text p{
+.iFunc1Text p, .iFunc2Text p, .iFunc3Text p, .iFunc4Text p, .iFunc5Text p, .iFunc6Text p, .iFunc7Text p {
     text-align: justify;
 }
 
@@ -283,7 +283,7 @@ p.copyright {
     clear: both;
 }
 
-footer a{
+footer a {
     float: right;
 }
 
@@ -315,7 +315,7 @@ p.copyright {
         width: 204px;
     }
 
-    section.mainContent > div.mainPic{
+    section.mainContent > div.mainPic {
         height: 400px;
         margin: 3% 0;
     }
@@ -352,26 +352,26 @@ p.copyright {
         height: 32px;
     }
 
-    section.mainContent > div.mainPic{
+    section.mainContent > div.mainPic {
         height: 350px;
         margin: 3% 0;
     }
 
-    section.mainContent div.mainText{
+    section.mainContent div.mainText {
         padding-top: 10%;
     }
 
-    .iFunc1Text, .iFunc2Text{
+    .iFunc1Text, .iFunc2Text {
         width: 40%;
     }
 
-    .iFunc1Pic, .iFunc2Pic{
+    .iFunc1Pic, .iFunc2Pic {
         width: 40%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    body{
+    body {
         font-size: 14px;
     }
 
@@ -408,25 +408,25 @@ p.copyright {
         margin-left: 0;
     }
 
-    section.mainContent{
+    section.mainContent {
         width: 100%;
         padding: 2% 0 0 0;
     }
 
-    section.mainContent > div.mainPic{
+    section.mainContent > div.mainPic {
         height: 250px;
         margin: 3% 0;
     }
 
-    section.mainContent > div.mainText{
+    section.mainContent > div.mainText {
         padding-top: 5%;
     }
 
-    .iFunc1Text, .iFunc2Text{
+    .iFunc1Text, .iFunc2Text {
         width: 43%;
     }
 
-    .iFunc1Pic, .iFunc2Pic{
+    .iFunc1Pic, .iFunc2Pic {
         width: 45%;
     }
 }
@@ -478,35 +478,35 @@ p.copyright {
         margin: auto 5px;
     }
 
-    section.mainContent > div.mainText{
+    section.mainContent > div.mainText {
         width: 46%;
         padding-right: 1%;
     }
 
-    div.vLine{
+    div.vLine {
         display: none;
     }
 
-    .iFunc1Text, .iFunc2Text{
+    .iFunc1Text, .iFunc2Text {
         width: 47%;
         margin: auto 10px;
     }
 
-    .iFunc1Pic, .iFunc2Pic{
+    .iFunc1Pic, .iFunc2Pic {
         width: 47%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    header{
+    header {
         height: 160px;
     }
 
-    #page-wrap{
+    #page-wrap {
         padding-top: 160px;
     }
 
-    #homebutton{
+    #homebutton {
         display: block;
         width: 86%;
         padding: 1% 0 1% 14%;
@@ -526,7 +526,7 @@ p.copyright {
         margin: 0;
     }
 
-    .social{
+    .social {
         width: 40px;
         margin: 0;
         padding: 0;
@@ -541,19 +541,19 @@ p.copyright {
         padding: 0;
     }
 
-    section.mainContent div h1{
+    section.mainContent div h1 {
         font-size: 1.6em;
     }
 
-    section.mainContent div h2{
+    section.mainContent div h2 {
         font-size: 1.4em;
     }
 
-    section.mainContent div h3{
+    section.mainContent div h3 {
         font-size: 1.2em;
     }
 
-    section.mainContent div h4{
+    section.mainContent div h4 {
         font-size: 1.1em;
     }
 }

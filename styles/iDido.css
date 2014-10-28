@@ -176,6 +176,7 @@ section.mainContent > div.mainPic {
     width: 50%;
     max-width: 60%;
     height: 450px;
+    text-align: center;
     background: url("../images/dido-main.jpg") no-repeat center;
     background-size: 100%;
     border-radius: 10px;
@@ -207,24 +208,20 @@ section.mainContent > div.mainPic {
     vertical-align: middle;
     width: 35%;
     height: 240px;
+    border-radius: 10px;
+    background-size: 100%;
 }
 
 .iFunc1Pic {
     background: url("../images/Dido_balance.jpg") no-repeat center;
-    background-size: 100%;
-    border-radius: 10px;
 }
 
 .iFunc2Pic {
     background: url("../images/Dido-dance.jpg") no-repeat center;
-    background-size: 100%;
-    border-radius: 10px;
 }
 
 .iFunc3Pic {
     background: url("../images/dido-zyrna.jpg") no-repeat center;
-    background-size: 100%;
-    border-radius: 10px;
 }
 
 .iFunc4Pic video {
@@ -233,21 +230,16 @@ section.mainContent > div.mainPic {
 
 .iFunc5Pic {
     background: url("../images/iDido01.jpg") no-repeat center;
-    background-size: 100%;
-    border-radius: 10px;
 }
 
 .iFunc6Pic {
-    width: 50%;
     background: url("../images/iDido02.jpg") no-repeat center;
-    background-size: 100%;
-    border-radius: 10px;
+    width: 28%;
+    margin: 0 3%;
 }
 
 .iFunc7Pic {
     background: url("../images/iDido03.jpg") no-repeat center;
-    background-size: 100%;
-    border-radius: 10px;
 }
 
 .iFunc1Text, .iFunc2Text, .iFunc3Text, .iFunc4Text, .iFunc5Text, .iFunc6Text, .iFunc7Text {
@@ -256,7 +248,7 @@ section.mainContent > div.mainPic {
     vertical-align: middle;
 }
 
-.iFunc1Text p, .iFunc3Text p, .iFunc2Text p, .iFunc4Text p {
+.iFunc1Text p, .iFunc2Text p, .iFunc3Text p, .iFunc4Text p, .iFunc5Text p, .iFunc6Text p, .iFunc7Text p {
     text-align: justify;
 }
 
@@ -273,7 +265,8 @@ section.mainContent > div.mainPic {
     display: block;
     clear: both;
 }
-footer a{
+
+footer a {
     float: right;
 }
 
@@ -408,7 +401,7 @@ video {
     }
 
     section.mainContent > div.mainPic {
-        height: 250px;
+        height: 270px;
         margin: 3% 0;
     }
 
